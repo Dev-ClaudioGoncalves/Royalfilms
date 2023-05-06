@@ -13,13 +13,11 @@ header {
 .logo {
     color: #fff;
     font-family: 'Bruno Ace', cursive;
-    font-size: 25px;
+    font-size: 27px;
     cursor: pointer;
     text-decoration: none;
-    font-weight: 500;
-    letter-spacing: 2px;
-    opacity: 0.6;
-    transition: ease-in-out 0.3s;
+    font-weight: 600;
+    letter-spacing: 3px;
     margin-left: 50px;
 }
 
@@ -34,8 +32,6 @@ header {
     margin-right: 50px;
 }
 
-
-.logo:hover,
 .favoritos:hover {
     opacity: 1;
 }
