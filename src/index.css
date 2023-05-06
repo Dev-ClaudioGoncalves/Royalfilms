@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
 }
 
-body{
+body {
   width: 100%;
   height: auto;
   background-image: url('../src/assets/cinema5.jpg');
@@ -13,7 +13,7 @@ body{
   position: relative;
 }
 
-body::before{
+body::before {
   content: '';
   display: block;
   position: absolute;
@@ -23,4 +23,24 @@ body::before{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.836);
   z-index: -1;
+  opacity: 1;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 1px solid #ddd;
+  /* creates padding around scroll thumb */
 }

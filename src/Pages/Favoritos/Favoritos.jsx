@@ -28,8 +28,9 @@ function Favoritos() {
     return (
         <div>
             <Header />
+            <div className="container-ul">
+            <h3 className='favoritos-h3'>Favoritos: </h3>
             <ul>
-                <h3 className='favoritos-h3'>Favoritos: </h3>
                 {films.map((item) => (
                     <div key={item.id} className='container-fav'>
                         <li>
@@ -42,6 +43,7 @@ function Favoritos() {
                     </div>
                 ))}
             </ul>
+            </div>
         </div>
     )
 }

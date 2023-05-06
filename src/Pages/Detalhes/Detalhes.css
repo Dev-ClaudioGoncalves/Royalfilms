@@ -13,25 +13,24 @@
 }
 
 body{
-    width: 100%;
     height: 100vh;
+    background: #000;
 }
 
 .filme-info{
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
-    overflow-y: hidden;
-
 }
 
 .container-info{
     width: 80%;
-    height: 700px;
+    height: 790px;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
 }
 
 .container-info > h1{

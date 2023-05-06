@@ -25,8 +25,8 @@ function Filmes() {
     }, [])
 
 
-    if(loading){
-        return(
+    if (loading) {
+        return (
             <div className='loading'>
                 <h2>Carregando filmes...</h2>
             </div>
