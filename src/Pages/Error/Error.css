@@ -1,0 +1,15 @@
+.container-error{
+    position: fixed;
+    color: #fff;
+    top: 40%;
+    left: 40%;
+}
+
+.container-error > h1{
+    font-size: 80px;
+}
+
+.container-error > p{
+    margin-left: 60px;
+    font-size: 50px;
+}

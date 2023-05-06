@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > span{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+ul{
+    color: #fff;
+    margin-top: 100px;
+    font-size: 25px;
+    list-style: none;
+    margin-bottom: 200px;
+}
+
+.favoritos-h3{
+    font-size: 35px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.container-fav{
+    border: 1px solid white;
+    width: 30%;
+    height: 120px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 200px;
+    background: #030303d5;
+}
+
+.link-fav{
+    color: #bb5e13;
+    text-decoration: none;
+
+}
+
+li > div {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+li > div > button{
+    background: #074aaf;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    color: #fff;
+}
+
+li > div > button:hover{
+    background: #0865f1;
+}
+
+.alerta{
+    margin-top: 20px;
+    color: #d12525;
+    font-size: 20px;
+}
+
+@media(max-width: 1370px){
+    .container-fav{
+        width: 40%;
+    }
+
+    li > div{
+        width: 500px;
+        justify-content: space-between;
+    }
+}
